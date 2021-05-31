@@ -1,0 +1,126 @@
+
+body {
+  font-family: Source Sans Pro;
+  min-height: 100%;
+  object-fit: cover;
+  
+    
+}
+#main{
+  display:flex;
+  background-color:#55B99F;
+  border-radius: 1px;
+  flex-direction:column;
+  text-align: center;
+  width:100%;
+}
+
+.home-page{
+  background-color: #517A56;
+  line-height:0.3;
+  position: relative;
+  
+}
+h1 {
+  font-size: 32pt;
+  margin-bottom: -5px;
+}                                                                                                           
+h3 {                         
+  font-size: 11pt ;               
+}
+img {
+  max-width: 100%;
+  display: block;
+  height: auto;
+  margin: 0 auto;
+}
+#img-caption{
+  width:600px;
+}
+#img-div {
+  background: white;
+  padding: 10px;
+  margin: 0;
+} 
+#headline {
+  margin: 50px 0;
+  text-align: center;
+}
+ul {
+  max-width: 550px;
+  margin: 0 auto 50px auto;
+  text-align: left;
+  line-height: 1.6;
+}
+li {
+  margin: 16px 0;
+}
+blockquote {
+  font-style: italic;
+  max-width: 545px;
+  margin: 0 auto 50px auto;
+  text-align: left;
+}
+button{
+  padding: 0.6em 2em;
+  border-radius: 8px;
+  color: white;
+  background-color:#7A6969;
+  font-size:1.1em;
+  border:0;
+  cursor:pointer;
+  margin: 1em;
+  font-family: Source Sans Pro;
+}
+
+.footer{
+  display: flex;
+  left:0;
+  bottom:0;
+  width:100%;
+  background-color:#55B99F;
+  text-align:center;
+  color:black;
+  border-radius: 1%;
+  flex-direction: column;
+}
+.iframe-container{
+  position:relative;
+  width:100%;
+  padding-bottom: 56.25%;
+  height:0;
+}
+.iframe-container iframe{
+  position:absolute;
+  top:0;
+  width: 30%;
+  height:30%;
+  border-radius: 8px;
+  margin: 0.6em; 
+}
+.text-container{
+position: absolute;
+padding-left:31%;
+line-height: 0.3;
+}
+.iframe{
+  transform: translateY(-550px);
+}
+.text{
+  transform: translateY(-550px);
+  line-height:0.3;
+}
+.iframe2{
+  transform: translateY(-1100px);
+}
+.text2{
+  transform: translateY(-1100px);
+  line-height:0.4;
+}
+.iframe3{
+  transform: translateY(-1650px);
+}
+.text3{
+  transform: translateY(-1650px);
+  line-height:0.4;
+}
